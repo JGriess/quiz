@@ -13,7 +13,7 @@ var set4 = document.querySelector("#set4");
 var set5 = document.querySelector("#set5");
 var scoreDisplay = document.querySelector("#scoreDisplay");
 var slideAr = [intro, set1, set2, set3, set4, set5, scoreDisplay];
-var questions = ["hoe"];
+var questions = ["hi"];
 var answers = ["that's you"];
 var slideNumber = 0;
 var currentSlide = slideAr[slideNumber];
@@ -32,7 +32,9 @@ timeId = setInterval(function () {
 function stoptime() {
     clearInterval(timeId)
 }
-
+// my aim with this code was to use this function after every button to clear to current elements and move on to the next one. 
+// haven't started making the elements yet but each one was supposed to correspond with into, set1, set2, ect...
+//probably just going to srap this
 function nextSlide() {
     currentSlide.clear()
     s++
